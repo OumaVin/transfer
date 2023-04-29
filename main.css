@@ -1,0 +1,278 @@
+/* Styles for screens larger than 768 pixels */
+@media only screen and (min-width: 768px) {
+  /* Add your styles for larger screens here */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+/* Styles for screens smaller than 768 pixels */
+@media only screen and (max-width: 767px) {
+  /* Add your styles for smaller screens here */
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+{
+background-image: background.jpg;
+}
+.#btn{
+    color: white;
+    border: none;
+    background-color: #04AA6D;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+/* MENU LINKS SECTION*/
+
+.menu-section {
+    background-color: #3D3D3D;
+    padding: 10px;
+    size: 20%;
+}
+
+#menu-top a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 20;
+    padding: 10px 10px 10px 10px;
+    text-transform: uppercase;
+}
+
+.menu-top-active {
+    background-color: blue;
+}
+
+.menu-section .nav > li > a:hover,.menu-section .nav > li > a:focus {
+    background-color: goldenrod;
+}
+
+.menu-section .dropdown-menu > li > a:hover,.menu-section .dropdown-menu > li > a:focus {
+    background-color: #F0677C!important;
+}
+
+.hr{
+    width: 100%;
+    color: gold;
+    border: 2px solid ;
+
+}
+.header{
+    background-color: darkblue;
+    color: #FFF;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 50%;
+    overflow: auto;
+    padding-top: 0px;
+}
+.sidebar a{
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.sidebar a.active{
+    background-color: #04AA6D;
+    color: white;
+}
+.sidebar a:hover:not(.active){
+    background-color: #555;
+    color: white;
+}
+div.content{
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 100px;
+}
+@media screen and (max-width: 700px){
+    .sidebar{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.sidebar a{float: left;}
+div.content{margin-left: 0;}
+}
+@media screen and (max-width: 400px){
+    .sidebar a{
+        text-align: center;
+        float: none;
+    }
+}
+
+
+.content-wrapper{
+    text-align: center;
+}
+.form1{
+    background-color: powderblue;
+    width: 50%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+   
+
+}
+
+
+.form2{
+    background: powderblue;
+    width: 50%;
+  
+}
+
+.input{
+ width: 50%;
+ 
+}
+
+.subject{
+      text-indent: 50px;
+    line-height: 3.0;
+
+
+}
+#btn1{
+    color: white;
+    border: none;
+    background-color: blue;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#btn2{
+    color: white;
+    border: none;
+    background-color: red;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.fieldset{
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px groove;
+    align-content: center;
+    padding: 50px;
+    right: 150px
+
+
+    
+
+}
+.body{
+    background-color: powderblue;
+}
+
+#login_admin{
+    border: solid gray 1px;
+    width: 25%;
+    border-radius: 2px;
+    margin: 120px auto;
+    background: white;
+    padding: 50px;
+}
+
+#btn{
+    color: fff;
+    background: #337ab7;
+    padding: 7px;
+    margin-left: 70%;
+
+}
+.registerbtn{
+    background-color: #04aa6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.registerbtn:hover{
+    opacity: 1px;
+}
+a{
+    color: dodgerblue;
+}
+.signin{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+input[type=text],
+input[type=Password]{
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+input[type=text]:focus,
+input[type=Password]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+.container{
+    padding: 16px;
+}
+.admin_register{
+        box-sizing: content-box;
+}
+.cod_form{
+    width: 50%;
+    height: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    align-content: center;
+    
+
+
+}
+#cod_sbmt{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#cod_rst{
+    background-color: gray;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+#sbmt{
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
